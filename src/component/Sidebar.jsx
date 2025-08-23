@@ -4,8 +4,7 @@ export default function Sidebar() {
     return (
         <>
             {/* 1st section of sidebar  */}
-            <div className='w-[25%] h-[85%] p-2 flex-col text-white hidden lg:flex '>
-
+            <div className='w-[25%] h-[100%] p-2 flex-col text-white hidden lg:flex   '>
                 <div className='h-[15%] w-full bg-[#252424] rounded flex flex-col justify-around gap-3 p-3 '>
                     <div className='flex item-center gap-5 pl-5 cursor-pointer'>
                         <img src={assets?.home_icon} alt="" className='w-6' />
