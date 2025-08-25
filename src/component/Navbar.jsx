@@ -6,8 +6,8 @@ function Navbar() {
     <>
       <div className='w-full  flex justify-between '>
         <div className='flex items-center gap-2'>
-            <img src={assets.arrow_left} alt="" className='w-6 cursor-pointer' />
-            <img src={assets.arrow_right} alt="" className='w-6 cutsor-pointer'/>   
+            <img src={assets.arrow_left} alt="" className='w-5 cursor-pointer' />
+            <img src={assets.arrow_right} alt="" className='w-5 cutsor-pointer'/>   
         </div>
         <div className='flex gap-4'>
             <p className='bg-white text-black p-1.5 rounded-2xl text-sm font-bold cursor-pointer'>Explore Premium</p>

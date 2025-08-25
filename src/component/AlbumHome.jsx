@@ -9,6 +9,7 @@ function AlbumHome() {
       <Navbar />
       <div className='mt-4'>
         <h2 className='text-white font-bold text-2xl my-2'>Featured Charts</h2>
+        {/* feature charts  */}
         <div className='flex overflow-auto'>
           {
             albumsData.map((item) => (
@@ -23,6 +24,7 @@ function AlbumHome() {
           }
         </div>
         <h2 className='text-white font-bold text-2xl my-2'>Today's biggest hits</h2>
+        {/* todays biggest hits */}
         <div className='flex overflow-auto'>
           {
             songsData.map((item) => (
@@ -36,7 +38,6 @@ function AlbumHome() {
               />
             ))
           }
-
         </div>
       </div>
     </div>

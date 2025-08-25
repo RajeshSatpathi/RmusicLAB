@@ -1,5 +1,6 @@
 import React from 'react'
 import { assets } from "../assets/assets/assets"
+import { Link } from 'react-router-dom'
 export default function Sidebar() {
     return (
         <>
@@ -8,7 +9,7 @@ export default function Sidebar() {
                 <div className='h-[15%] w-full bg-[#252424] rounded flex flex-col justify-around gap-3 p-3 '>
                     <div className='flex item-center gap-5 pl-5 cursor-pointer'>
                         <img src={assets?.home_icon} alt="" className='w-6' />
-                        <p className='font-bold'>Home</p>
+                      <Link to="/"><p className='font-bold'>Home</p></Link>  
                     </div>
                     <div className='flex item-center gap-5 pl-5 cursor-pointer'>
                         <img src={assets?.search_icon} alt="" className='w-6' />
